@@ -96,9 +96,13 @@
   <project path="packages/modules/IntentResolver" name="packages_modules_IntentResolver" remote="halcyon" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="halcyon" />
 
+  <!-- Packages Providers -->
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="halcyon" />
+
   <!-- System -->
   <project path="system/bpf" name="system_bpf" remote="halcyon" />
   <project path="system/core" name="system_core" remote="halcyon" />
+  <project path="system/keymint" name="system_keymint" remote="halcyon" />
   <project path="system/libhidl" name="system_libhidl" remote="halcyon" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="halcyon" />
   <project path="system/netd" name="system_netd" remote="halcyon" />
