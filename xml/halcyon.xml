@@ -22,7 +22,7 @@
            revision="viola" />
 
   <remote  name="halcyon-gt"
-           fetch="https://gitea.com/halcyonproject"
+           fetch="https://git.hlcyn.co/halcyonproject"
            revision="15.0" />
 
   <remote  name="github"
