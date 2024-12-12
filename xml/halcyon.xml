@@ -44,6 +44,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
+  <project path="build/release" name="build_release" remote="halcyon" />
   <project path="build/soong" name="build_soong" remote="halcyon" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
@@ -55,7 +56,7 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="halcyon" />
   <project path="libcore" name="libcore" remote="halcyon" />
   
-    <!-- Device -->
+  <!-- Device -->
   <project path="device/halcyon/sepolicy" name="device_halcyon_sepolicy" remote="halcyon" />
 
   <!-- External -->
@@ -77,8 +78,8 @@
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="halcyon" />
   <project path="frameworks/base" name="frameworks_base" remote="halcyon" />
-  <project path="frameworks/native" name="frameworks_native" remote="halcyon" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="halcyon" />
+  <project path="frameworks/native" name="frameworks_native" remote="halcyon" />
 
   <!-- Hardware -->
   <project path="kernel/configs" name="kernel_configs" remote="halcyon" />
@@ -86,30 +87,35 @@
   <!-- Hardware -->
   <project path="hardware/halcyon/compat" name="hardware_halcyon_compat" remote="halcyon" />
   <project path="hardware/halcyon/interfaces" name="hardware_halcyon_interfaces" remote="halcyon" />
-  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="halcyon" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="halcyon" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="halcyon" />
+  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="halcyon" />
 
-
+  <!-- Packages apps -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="halcyon" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="halcyon-gitlab" />
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="halcyon-gitlab" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="halcyon" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="halcyon" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="halcyon" />
-  
-  <!-- Packages Services -->
-  <project path="packages/services/SmartSpace" name="packages_services_SmartSpace" remote="halcyon" />
 
   <!-- Packages Libraries -->
   <project path="packages/libraries/preferences" name="packages_libraries_preferences" remote="halcyon" />
   <project path="packages/libraries/preference-ktx" name="packages_libraries_preference-ktx" remote="halcyon" />
-  
+
   <!-- Packages Modules -->
   <project path="packages/modules/adb" name="packages_modules_adb" remote="halcyon" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="halcyon" />
   <project path="packages/modules/common" name="packages_modules_common" remote="halcyon" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="halcyon-gitlab" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="halcyon" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="halcyon" />
+
+  <!-- Packages providers -->
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="halcyon" />
+
+  <!-- Packages Services -->
+  <project path="packages/services/SmartSpace" name="packages_services_SmartSpace" remote="halcyon" />
 
   <!-- System -->
   <project path="system/bpf" name="system_bpf" remote="halcyon" />
