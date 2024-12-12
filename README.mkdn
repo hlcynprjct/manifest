@@ -1,4 +1,4 @@
-# Halcyon - Viola Alpha
+# Halcyon - Viola Beta
 
 Halcyon is an aftermarket firmware based on AOSP with unique UI and features.
 
